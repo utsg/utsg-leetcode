@@ -7,6 +7,6 @@ public class MissingNumber {
             sum += i;
         }
 
-        return nums.length * (nums.length-1) - sum;
+        return nums.length * (nums.length+1)/2 - sum;
     }
 }
